@@ -119,3 +119,4 @@ def main():
 
 if __name__ == '__main__':
     best_model = main()
+    print(f"best model coefs length:{len(best_model.coef_)}")
